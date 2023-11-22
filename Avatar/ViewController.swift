@@ -20,10 +20,10 @@ class ViewController: UIViewController {
         let logo = UIImage(systemName: "person.crop.circle.fill")?.withTintColor(.gray)
         let imgV = UIImageView(image:logo)
         imgV.tintColor = .gray
-        imgV.frame = CGRect(x: 0, y: 0, width: 44, height: 44)
+        imgV.frame = CGRect(x: 10, y: 4, width: 36, height: 36)
         let label = UILabel()
         label.text = "Avatar"
-        label.frame = CGRect(x: 70, y: 0, width: 100, height: 44)
+        label.frame = CGRect(x: 90, y: 0, width: 100, height: 44)
         let avatarView = UIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: initialHeight))
         avatarView.addSubview(imgV)
         avatarView.addSubview(label)
